@@ -43,7 +43,7 @@ This project implements a **Natural Language Understanding (NLU) based chatbot**
 
 ## Installation
 
-````pip install tensorflow nltk fastapi uvicorn
+```pip install tensorflow nltk fastapi uvicorn
 python -m nltk.downloader punkt wordnet```
 
 ## Example API Request
@@ -63,4 +63,3 @@ python -m nltk.downloader punkt wordnet```
 - Uses NLTK for preprocessing and TensorFlow for neural network modeling.
 
 ---
-````
