@@ -1,6 +1,6 @@
-# NLU Chatbot for Symptom-Based Healthcare Assistance
+# Simple Chatbot
 
-This project implements a **Natural Language Understanding (NLU) based chatbot** designed to recognize user symptoms and provide appropriate healthcare suggestions. Built with Python, TensorFlow, and NLTK, it classifies user inputs into predefined intents and responds accordingly.
+This project implements a **Small Scale NLU based chatbot** designed to recognize user symptoms and provide healthcare suggestions. Built with Python, TensorFlow, and NLTK, it classifies user inputs into predefined intents and responds accordingly.
 
 ---
 
