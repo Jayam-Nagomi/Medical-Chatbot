@@ -43,19 +43,25 @@ This project implements a **Natural Language Understanding (NLU) based chatbot**
 
 ## Installation
 
-```pip install tensorflow nltk fastapi uvicorn
-python -m nltk.downloader punkt wordnet```
+```bash
+pip install tensorflow nltk fastapi uvicorn
+python -m nltk.downloader punkt wordnet
+```
 
 ## Example API Request
 
-```curl -X POST "http://localhost:8000/chat" -H "Content-Type: application/json" -d '{"message": "I have a headache and fever"}'```
+```bash
+curl -X POST "http://localhost:8000/chat" -H "Content-Type: application/json" -d '{"message": "I have a headache and fever"}'
+```
 
 ## Example Response
 
-```{
+```json
+{
   "response": "You have multiple symptoms. It’s better to book an appointment with a doctor. Call this number for assistance: 123-456-7890.",
   "tag": "multiple_symptoms"
-}```
+}
+```
 
 ## Acknowledgments
 
