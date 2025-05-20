@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tags": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon"],
+      "response": [
+        "Hello! How can I assist you today? Are you experiencing any symptoms?",
+        "Hi there! Please tell me what symptoms you have or what you need help with."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "headache",
+      "patterns": [
+        "I have a headache",
+        "My head hurts",
+        "Headache",
+        "Pain in head",
+        "I am having headache"
+      ],
+      "response": [
+        "For headaches, you can try Paracetamol or Ibuprofen. Make sure to rest and stay hydrated.",
+        "Headache relief medicines include Paracetamol and Ibuprofen. If pain persists, consider seeing a doctor."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "stomach_pain",
+      "patterns": [
+        "My stomach hurts",
+        "I have stomach pain",
+        "Pain in stomach",
+        "Stomach ache"
+      ],
+      "response": [
+        "For stomach pain, antacids like Mylanta or Tums may help. If pain is severe or lasts long, please consult a doctor.",
+        "You can try taking antacids for stomach pain, but if symptoms worsen, it's best to see a doctor."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "eye_pain",
+      "patterns": [
+        "Pain in my eyes",
+        "My eyes hurt",
+        "Eye pain",
+        "I have eye discomfort"
+      ],
+      "response": [
+        "For mild eye pain, try using lubricating eye drops and avoid straining your eyes. If pain continues, consult a specialist.",
+        "Use lubricating drops for eye pain. If symptoms persist or worsen, please see an eye doctor."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "fever",
+      "patterns": [
+        "I have fever",
+        "Feeling feverish",
+        "My body temperature is high",
+        "High fever"
+      ],
+      "response": [
+        "To reduce fever, you can take Paracetamol and rest well. If fever lasts more than 3 days, see a doctor.",
+        "Paracetamol helps with fever. Make sure to drink plenty of fluids and consult a doctor if it persists."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "diarrhea",
+      "patterns": [
+        "I have diarrhea",
+        "Loose stools",
+        "Stomach upset with diarrhea",
+        "Frequent bowel movements"
+      ],
+      "response": [
+        "For diarrhea, oral rehydration salts (ORS) and plenty of fluids are recommended. If it continues more than 2 days, please consult a doctor.",
+        "ORS can help with diarrhea dehydration. If symptoms worsen or persist, visit your healthcare provider."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "vomiting",
+      "patterns": [
+        "I am vomiting",
+        "Throwing up",
+        "Feeling nauseous and vomiting",
+        "vomit"
+      ],
+      "response": [
+        "For vomiting, stay hydrated and try anti-nausea medication like Dimenhydrinate. If vomiting persists, see a doctor.",
+        "Sip small amounts of fluids to avoid dehydration. If vomiting continues, please consult a healthcare professional."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "pain_killer",
+      "patterns": [
+        "I need pain killers",
+        "Suggest some pain relief medicine",
+        "What painkillers can I take?"
+      ],
+      "response": [
+        "Common painkillers include Paracetamol, Ibuprofen, and Aspirin. Always follow the recommended dosage.",
+        "You can use Paracetamol or Ibuprofen for pain relief. Consult a doctor if pain persists."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "multiple_symptoms",
+      "patterns": [
+        "I have headache and fever",
+        "Stomach pain and vomiting",
+        "I am feeling feverish and have diarrhea"
+      ],
+      "response": [
+        "You have multiple symptoms. It’s better to book an appointment with a doctor. Call this number for assistance: 123-456-7890.",
+        "Since you have more than one symptom, please consult a healthcare professional. You can call 123-456-7890 to book an appointment."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "thanks",
+      "patterns": ["thanks", "thank you", "thank you so much", "thanks a lot"],
+      "response": ["You’re welcome! Stay healthy.", "Glad to help! Take care."],
+      "context": [""]
+    },
+    {
+      "tags": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "exit"],
+      "response": [
+        "Goodbye! Take care and stay safe.",
+        "See you later! Wishing you good health."
+      ],
+      "context": [""]
+    },
+    {
+      "tags": "fallback",
+      "patterns": [""],
+      "response": [
+        "Sorry, I didn’t understand that. Can you please rephrase?",
+        "I’m not sure I got that. Could you tell me again?"
+      ],
+      "context": [""]
+    }
+  ]
+}
